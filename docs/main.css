@@ -1,0 +1,216 @@
+/* Propiedad del HTML para que el pie de página salga al final */
+html {
+    height: 100%;
+}
+
+/* CABECERA Y SUS ELEMENTOS */
+#cabecera {
+    width: 100%;
+    background-color: rgb(255, 94, 0);
+    float: left;
+    margin: 0;
+    height: max-content;
+}
+
+/* Imagen del logotipo de la web */
+#logo {
+    width: 70px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Titulo de la web */
+#titulo {
+    font-size: 50px;
+    font-family: fantasy;
+    float: left;
+}
+
+#navegador {
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+#opciones {
+    list-style-type: none;
+    float: right;
+    padding: 0;
+}
+
+#opciones li {
+    list-style: none;
+    float: left;
+    padding: 2px;
+}
+
+#opciones li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}   
+/* FIN DE CABECERA Y SUS ELEMENTOS*/
+
+/* Propiedades del body */
+body {
+    margin: 0;
+    background-color: rgb(253, 210, 69);
+    height: 100%;
+}
+
+/* CONTENEDOR IZQUIERDO Y SUS ELEMENTOS */
+#contenedor1 {
+    float: left;
+    background-color: rgb(109, 221, 255);
+    width: 33.33333%;
+    min-height: 90%;
+}
+
+/* Imagen del usuario */
+#usuario {
+    float: left;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#nombreUsuario {
+    font-weight: bold;
+    float: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 25px;
+}
+
+/* Propiedades para las secciones "Información personal", "Últimas opinniones" y "Mis preferencias" */
+.seccion {
+    float: left;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 100%;
+}
+
+/* Títulos de las secciones */
+.secTil {
+    font-weight: bold;
+    font-size: 18px; 
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+}
+
+/* Lista de "Últimas opiniones" con descripciones */
+.seccion dl {
+    padding: 0;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-bottom: 0;
+    float: left;
+}
+
+.seccion dl dt {
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+/* Texto de "Información personal" y descripciones de "Últimas opiniones" */
+.texto {
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    float: left;
+    text-align: justify;
+}
+
+/* Icono + en "Mis preferencias" */
+#agregar {
+    width: 18px;
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+/* divs de "Mis preferencias" */
+.prefers {
+    float: left;
+    background-color: pink; 
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-right: 0;
+    margin-bottom: 1%;
+}
+
+/*Texto dentro de los divs de cada preferencia*/
+.texto2 {
+    font-weight: normal;
+    font-size: 15px;
+    margin: 5px;
+    float: left;
+}
+
+/* Iconos x dentro de los divs de cada preferencia */
+.iconosPeq {
+    width: 18px;
+    float: left;
+    margin: 4px;
+}
+
+/* Div vacio para que los elementos aparezcan debajo */
+.vacio {
+    clear: both;
+}
+/* FIN DEL CONTENEDOR IZQUIERDO Y SUS ELEMENTOS */
+
+/* CONTENEDOR DERECHO. SIN ELEMENTOS */
+#contenedor2 {
+    float: left;
+    width: 66.66666%;
+    background-color: rgb(253, 210, 69);
+    min-height: 90%;
+}
+/* FIN DEL CONTENEDOR DERECHO */
+
+/* PIE DE PAGINA Y SUS ELEMENTOS */
+#pie {
+    width: 100%;
+    float: left;
+    background-color: black;
+    
+}
+
+/* Divs de las redes sociales */
+.redes {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+/* Imágenes de las redes sociales */
+.icRedes {
+    margin: 20px;
+    width: 40px;
+}
+/* div de la barra divisoria vertical */
+.divBarra {
+    width: 5%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* "Texto" de la barra divisoria vertical */
+.barra {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+/* FIN DEL PIE DE PAGINA Y SUS ELEMENTOS */

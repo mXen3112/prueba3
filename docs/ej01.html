@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- HTML en español -->
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style/main.css" />
+    <title>OPINATOR</title>
+    <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <!-- Contiene logotipo, título y barra de navegación con lista -->
+    <div id="cabecera">
+        <img id="logo" src="images/logo.png" alt="Logotipo">
+        <p id="titulo">OPINATOR</p>
+        <nav id="navegador">
+            <ul id="opciones">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Opiniones">Opiniones</a></li>
+                <li><a href="#Ajustes">Ajustes</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- FIN DE CABECERA -->
+
+    <!-- CONTENEDOR IZQUIERDO -->
+    <!-- Contiene foto de usuario, nombre de usuario, y las secciones de "información personal", "últimas opiniones" y "mis preferencias" -->
+    <div id="contenedor1">
+
+        <img id="usuario" src="images/homer.jpeg" alt="usuario">
+        <p id="nombreUsuario">Homer Simpson</p>
+        
+        <!--Div vacio para que el resto de elementos aparezcan debajo-->
+        <div class="vacio"></div>
+
+        <!-- SECCION INFORMACION PERSONAL -->
+        <!-- Contiene texto -->
+        <div class="seccion">
+            <p class="secTil">Información personal</p>
+            <div class="vacio"></div>
+            <p class="texto">Springfield, Estados Unidos.<br>Miembro desde 2010.</p>
+        </div>
+        <!-- FIN SECCION INFORMACION PERSONAL -->
+    
+        <!-- SECCION ULTIMAS OPINIONES -->
+        <!-- Contiene una lista (dl) de enlaces (dt) y debajo de cada enlace una breve descripción (dd) -->
+        <div class="seccion">
+            <p class="secTil">Últimas opiniones</p>
+            <div class="vacio"></div>
+            <dl>
+                <dt><a href="#BadulaqueSpringfield">El Badulaque, Springfield</a></dt>
+                <dd class="texto">El Badulaque es un comercio al que voy todos los días a comer, por eso lo incluyo en esta página web de opiniones acerca de restaurantes.</dd>
+                <dt><a href="#KrustyBurguerSpringfield">Krusty Burguer, Springfield</a></dt>
+                <dd class="texto">Voy todos los días al Krusty Burguer, adoro sus hamburguesas, me suelo comer 5 o 6 cuando voy. El payaso no me termina de caer bien.</dd>
+                <dt><a href="#TrufaDoradaSpringfield">La Trufa Dorada, Springfield</a></dt>
+                <dd class="texto">La Trufa Dorada es un restaurante pijo que cuesta mucho dinero. Mi mujer me obliga ir por tonterías como aniversarios o cosas así...</dd>
+            </dl>
+        </div>
+        <!-- FIN SECCION ULTIMAS OPINIONES -->
+
+        <!-- SECCION MIS PREFERENCIAS -->
+        <!-- Contiene un botón no funcional para agregar más preferencias y divs de algunas preferencias ya existentes junto a un botón no funcional para quitarla -->
+        <div class="seccion">
+            <p class="secTil">Mis preferencias</p>
+            <img id="agregar" src="images/more.png" alt="agregar">
+
+            <!-- Div vacio para que los divs de las preferencias aparezcan debajo -->
+            <div class="vacio"></div>
+
+            <!-- Preferencia 1 -->
+            <div class="prefers">
+                <p class="texto2">Hamburguesas</p>
+                <img class="iconosPeq" src="images/x.png" alt="quitar">
+            </div>
+
+            <!-- Preferencia 2 -->
+            <div class="prefers">
+                <p class="texto2">Cerveza</p>
+                <img class="iconosPeq" src="images/x.png" alt="quitar">
+            </div>
+
+            <!-- Preferencia 3 -->
+            <div class="prefers">
+                <p class="texto2">Chocolate</p>
+                <img class="iconosPeq" src="images/x.png" alt="quitar">
+            </div>
+        </div>
+        <!-- FIN SECCION MIS PREFERENCIAS -->
+    
+    </div>
+    <!-- FIN DEL CONTENEDOR IZQUIERDO -->
+
+    <!-- CONTENEDOR DERECHO -->
+    <!-- Vacio -->
+    <div id="contenedor2"></div>
+    <!-- FIN DEL CONTENEDOR DERECHO -->
+
+    <!-- PIE DE PAGINA -->
+    <!-- Contiene enlaces a distintas redes sociales separadas por barras verticales -->
+    <div id="pie">
+
+        <!-- Twitter -->
+        <div class="redes">
+            <a href="http://www.twitter.com"><img class="icRedes" src="images/twitter.png" alt="Twitter"></a>
+        </div>
+
+        <!-- Barra -->
+        <div class="divBarra">
+            <p class="barra">|</p>
+        </div>
+
+        <!-- Facebook -->
+        <div class="redes">
+            <a href="http://www.facebook.es"><img class="icRedes" src="images/facebook.png" alt="Facebook"></a>
+        </div>
+
+        <!-- Barra -->
+        <div class="divBarra">
+            <p class="barra">|</p>
+        </div>
+
+        <!-- Instagram -->
+        <div class="redes">
+            <a href="http://www.instagram.es"><img class="icRedes" src="images/instagram.png" alt="Instagram"></a>
+        </div>
+
+    </div>
+    <!-- FIN DE PIE DE PAGINA -->
+
+</body>
+
+</html>
